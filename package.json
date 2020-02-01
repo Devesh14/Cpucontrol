@@ -1,0 +1,40 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon --exec babel-node ./bin/www"
+  },
+  "dependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "bluebird": "^3.7.2",
+    "child_process": "^1.0.2",
+    "cookie-parser": "~1.4.4",
+    "cron": "^1.8.2",
+    "csv-parser": "^2.3.2",
+    "csvtojson": "^2.0.10",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fast-csv": "^4.0.2",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "lodash": "^4.17.15",
+    "microstats": "^0.1.2",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.10",
+    "morgan": "~1.9.1",
+    "neat-csv": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "os": "^0.1.1",
+    "pug": "2.0.0-beta11",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
